@@ -1,9 +1,13 @@
 {
-  "name": "blankYourAnchors",
-  "version": "0.0.1",
+  "name": "PointBlank",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Inject _blank into your anchor tags",
-  //"homepage_url": "",
+  "description": "Redirect all links to open in a new tab",
+  "icons": {
+    "16": "icons/icon16.png"/*,
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"*/
+  },
   "background": {
     "scripts": [
       "background.js"
